@@ -289,6 +289,15 @@
       "sha256": "55b9af9fbd6db3682767941a6f73777640a57d8215c8911b0126e002226fd4d9"
     },
     {
+      "path": "public/screenshots/arcvelocity-diagnose-desktop-1440x900.png",
+      "category": "public-web-capture",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "captured": "2026-08-25",
+      "source": "https://arcvelocity.com/#diagnose",
+      "sha256": "52c8b34d1af52a5d9b7d1475079e440e4e10d3287d70e53987d264ee449d68b2"
+    },
+    {
       "path": "public/screenshots/arcvelocity-home-desktop-1440x900.png",
       "category": "public-web-capture",
       "owner": "ArcVelocity",
@@ -296,15 +305,6 @@
       "captured": "2026-08-25",
       "source": "sanitized local static export",
       "sha256": "4349f8c743ef5f28ba5b9893a6c8158ac760aec153cf59b52c1dc4addc7f4095"
-    },
-    {
-      "path": "public/screenshots/arcvelocity-home-mobile-390x844.png",
-      "category": "public-web-capture",
-      "owner": "ArcVelocity",
-      "metadataCleaned": true,
-      "captured": "2026-08-25",
-      "source": "sanitized local static export",
-      "sha256": "87c52c4e2663e9bcd6517848b4bf674376519b0c2ecaa686a79b489cfad825c1"
     }
   ]
 }

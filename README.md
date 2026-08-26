@@ -34,11 +34,7 @@ The goal is practical operational improvement: fewer manual touchpoints, faster 
 
 [![ArcVelocity homepage shown at desktop width](public/screenshots/arcvelocity-home-desktop-1440x900.png)](https://arcvelocity.com/)
 
-<p align="center">
-  <a href="https://arcvelocity.com/">
-    <img src="public/screenshots/arcvelocity-home-mobile-390x844.png" alt="ArcVelocity homepage shown at mobile width" width="320">
-  </a>
-</p>
+[![ArcVelocity diagnose-the-bottlenecks section shown at desktop width](public/screenshots/arcvelocity-diagnose-desktop-1440x900.png)](https://arcvelocity.com/#diagnose)
 
 The production website presents ArcVelocity's on-site implementation process, workflow-diagnostic approach, capabilities, engagement models, and DFW operating focus.
 
