@@ -1,0 +1,310 @@
+{
+  "policy": "Only explicitly approved ArcVelocity homepage media may be committed.",
+  "assets": [
+    {
+      "path": "app/icon.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "9b9b89cf98e04b0d1c4e3d4d7a8b3b67ef37bc75b5d39448aeb667a1c84695c3"
+    },
+    {
+      "path": "public/images/adoption-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "1d7e86ecd0958dacc8d0c662944ca3c1cc7eca20d252df236437ca85b4a35ce5"
+    },
+    {
+      "path": "public/images/adoption-mobile-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "16777a674663bc30e3fa581f737ec8b1be23a9c968c2cff43149c658ab123c07"
+    },
+    {
+      "path": "public/images/arcvelocity-logo-home.webp",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "7593e3a2a5c071a2193997d9a9a63bc2e8a4ae93f7758858cc5ac489b7995e17"
+    },
+    {
+      "path": "public/images/built-for-work/advisory-firms.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "3c69258a667b227893101e0b7a5d716a23f344f11bb806d345cce3c0be682e7f"
+    },
+    {
+      "path": "public/images/built-for-work/coordination-heavy-teams.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "7e006e09294a25a96d96b06c6f1bcdcdf69c969b1a64268b12374106ef9aeaa4"
+    },
+    {
+      "path": "public/images/built-for-work/field-operations.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "dbc0fae619b45dd2589046cef118768a8ebb4943afa85475a511bd7101226a5c"
+    },
+    {
+      "path": "public/images/built-for-work/service-businesses.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "850b5d73c43542443c57d7a0c48c3f41b5c56bac62340b622ca821667abd4926"
+    },
+    {
+      "path": "public/images/capabilities/ai-copilots-material.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "ecc01473e1bbd0d56dea4a3a2cea6ec713fe823b9428d4531260d41a01f7b375"
+    },
+    {
+      "path": "public/images/capabilities/copper-ball-crop.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "07c29bbe7fe310ef94e12b2200f8b1230628438993cf04ac9daf218c9ecdc5c9"
+    },
+    {
+      "path": "public/images/capabilities/knowledge-systems-material-tight.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "6a61cc789034c85afabf0b888abf999ea2855a030a6edfc7e9a94e52704577d6"
+    },
+    {
+      "path": "public/images/capabilities/reporting-oversight-material.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "f4d36ccda3cd8216e735abbef165eec6506a8f025f297701e6c0748f529bab42"
+    },
+    {
+      "path": "public/images/capabilities/stone-ball-crop.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "19df202e8075671b5028b44b6b8be690ba9326272ac0d268fc2e28d4e38dac94"
+    },
+    {
+      "path": "public/images/capabilities/workflow-automation-material.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "69563453ddc7905db00703fa97f1a0f36462312c5b99c26ea847c217e742fa9b"
+    },
+    {
+      "path": "public/images/diagnose/bottleneck-diagram-mobile.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "636cf48b48f3c6f1636f415c375ae54f894f52e41762dfab5ce3409f2ad5c99b"
+    },
+    {
+      "path": "public/images/diagnose/bottleneck-diagram.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "997164715ac6b0fa94423cd6faa2fbc7b2dd46cc6cd7fab2a4bcea7a08b11896"
+    },
+    {
+      "path": "public/images/engagement-models-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "828996f7d3ad0a68dc8d994d58fd1c5772f877e310653e88614e9ba364aee9b4"
+    },
+    {
+      "path": "public/images/engagement-models-mobile-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "d0d0065c44120d9077eeb289d323360b45f569f64c4abd4ac449b57bf8797a9d"
+    },
+    {
+      "path": "public/images/engagement/operating-partner-icon.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "0ac825121fb7516e869e90adb9011c4ddafd20945f7c2dea161e267d34f5d089"
+    },
+    {
+      "path": "public/images/engagement/pilot-build-icon.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "00fe4012609647cfbebb201f6d709c7a87dfc7546dfce14884d9205b7b415923"
+    },
+    {
+      "path": "public/images/engagement/workflow-diagnostic-icon.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "edb522c4622e0052624e4f11d9011fdcc74b8b450d0b45d9dc49c2e0a95f8e58"
+    },
+    {
+      "path": "public/images/final-cta-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "49e9c6f1ca0a4f871bcfd058424ffd12a7e5738ebba2a901e64e9b64720981f1"
+    },
+    {
+      "path": "public/images/hero-mobile-poster.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "7c2f2eec3e7a77f0824ead5827b40bfd974b52bdbf14921d8f0daebdd3daa4d1"
+    },
+    {
+      "path": "public/images/hero-mobile-video.mp4",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "c909a5ffd7ad8e85e7b90883fba508408ba6ae98fbc3fa20c176bafcf3275772"
+    },
+    {
+      "path": "public/images/hero-poster.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "98b426cae1370b6223c623d634b4a243f7b5a77607dc4b2ac2294b62a7e2c5bb"
+    },
+    {
+      "path": "public/images/hero-video.mp4",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "5447f6b8333858d565d81c15b70e75fb40d047a6fea9e8e1a9aaf51e79449460"
+    },
+    {
+      "path": "public/images/implementation/connect-icon-crop.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "d629ef00a933aac0c8383838e314aba10b6f1b518f7524710022dcc2b5f2bcd5"
+    },
+    {
+      "path": "public/images/implementation/implementation-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "494028519b7a983c51d0f864a30670fb35c7aba7777fbb4ec5844ae4a6dcf716"
+    },
+    {
+      "path": "public/images/implementation/install-icon-crop.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "9689fe247bc611930f8d0ca1fe92d41d0e1f560f100b3df5c5ffb81a7f210b30"
+    },
+    {
+      "path": "public/images/implementation/install-process-photo.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "812bb1d89e46012cbdf20fd534b1b1fb1db2f069df0f25524cf68a4f556e3cb5"
+    },
+    {
+      "path": "public/images/implementation/train-icon-crop.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "2aa678b44df498af2cde29fec1bb00650d7c4cc83838aff1143db388d6237144"
+    },
+    {
+      "path": "public/images/implementation/visit-icon-crop.png",
+      "category": "brand",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "743af933e636f2e019bacdf52a8c921f73abe28f8e758cd2c9db43f2440fc04e"
+    },
+    {
+      "path": "public/images/local-context-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "03448a57d16a71ee4ee3eb6dc25f78af7d6e919a953147c8603b8dbba8331a0f"
+    },
+    {
+      "path": "public/images/local-mobile-background.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "012d15510d3e51494b5428f50825cd61c13375d1fd4c1fd65929ca0c930ab948"
+    },
+    {
+      "path": "public/images/measured-impact/featured-engagement-card-mobile.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "dea131e05055e5a0f72032029df88eb52cbf262958ca583050e37198a8dda963"
+    },
+    {
+      "path": "public/images/measured-impact/featured-engagement-card-trimmed.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "0c7f3f2eee2a05c08dc16144f02f40b1a1cb7ed470ca417cc33ea9d31373bad8"
+    },
+    {
+      "path": "public/images/orange-texture.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "0e002a090b877d7da42cb92ac34852369c756704f5b4d83bca7f62878b7d006c"
+    },
+    {
+      "path": "public/images/results/outcome-quote.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "9a24b37d21687626492701a02d06cd2d44280ebf09ab1d4d4db637583f7f3f1c"
+    },
+    {
+      "path": "public/images/results/stone-cube-cutout-v2.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "31c227c8f6160bce6f4965e1639633b6047b819e8e969d7a5756625405a51dbc"
+    },
+    {
+      "path": "public/images/wall-texture.webp",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "ea3b3fd21ffeb2c97623acf45d4fb29ceb3e96baf052877ed941208ca02b402b"
+    },
+    {
+      "path": "public/images/who-we-are/meeting-dark.png",
+      "category": "homepage-media",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "sha256": "55b9af9fbd6db3682767941a6f73777640a57d8215c8911b0126e002226fd4d9"
+    },
+    {
+      "path": "public/screenshots/arcvelocity-home-desktop-1440x900.png",
+      "category": "public-web-capture",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "captured": "2026-08-25",
+      "source": "sanitized local static export",
+      "sha256": "4349f8c743ef5f28ba5b9893a6c8158ac760aec153cf59b52c1dc4addc7f4095"
+    },
+    {
+      "path": "public/screenshots/arcvelocity-home-mobile-390x844.png",
+      "category": "public-web-capture",
+      "owner": "ArcVelocity",
+      "metadataCleaned": true,
+      "captured": "2026-08-25",
+      "source": "sanitized local static export",
+      "sha256": "87c52c4e2663e9bcd6517848b4bf674376519b0c2ecaa686a79b489cfad825c1"
+    }
+  ]
+}

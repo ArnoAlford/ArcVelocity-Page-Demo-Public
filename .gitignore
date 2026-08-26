@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js output
+/.next/
+/out/
+/build/
+
+# Test and tool output
+/coverage/
+/output/
+/outputs/
+/.tmp/
+*.log
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets and local configuration
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+google-ads.yaml
+google-ads.yml
+
+# Platform and editor state
+/.vercel/
+/.playwright-cli/
+/.codex-tmp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

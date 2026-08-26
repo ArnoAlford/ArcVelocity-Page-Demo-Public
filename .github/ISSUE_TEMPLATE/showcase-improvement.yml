@@ -1,0 +1,22 @@
+name: Public homepage demo improvement
+description: Suggest a homepage presentation improvement without sharing sensitive material.
+title: "[Showcase]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Do not submit production code, identifiers, customer or property data, credentials, screenshots, logs, or internal documentation.
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Proposed improvement
+      description: Describe the public-safe presentation or documentation improvement.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: This request contains no sensitive, private, production, or customer information.
+          required: true

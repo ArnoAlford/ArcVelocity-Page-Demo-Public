@@ -1,0 +1,187 @@
+:root {
+  --ink: #211e18;
+  --night-ink: #14120f;
+  --warm-white: #f5f0e9;
+  --copper: #b9825f;
+  --copper-dark: #8d5236;
+  --clay-button: #97552f;
+  --olive-utility: #2e2f24;
+  --stone-local: #e4ddd2;
+  --stone-service: #e5ddd2;
+  --stone-approach: #e7dfd4;
+  --stone-impact: #e3dbd0;
+  --stone-systems: #e1d8cd;
+  --cream-cta-text: #fff7ef;
+  --cream-cta-alt: #fff5ea;
+  --display: var(--font-serif), "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --ui: var(--font-sans), "Avenir Next", Inter, "Helvetica Neue", Arial, sans-serif;
+  --hand: var(--font-hand), Caveat, Kalam, cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--night-ink);
+  color: var(--warm-white);
+  font-family: var(--ui);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mobile-menu {
+  position: relative;
+  display: none;
+  justify-self: end;
+}
+
+.mobile-menu-toggle {
+  width: 48px;
+  height: 48px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--copper-dark);
+  background: rgba(245, 240, 233, 0.08);
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-menu-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.mobile-menu-toggle span {
+  width: 19px;
+  height: 2px;
+  display: block;
+  background: currentColor;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.mobile-menu-toggle span + span {
+  margin-top: 4px;
+}
+
+.mobile-menu[open] .mobile-menu-toggle span:first-child {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.mobile-menu[open] .mobile-menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu[open] .mobile-menu-toggle span:last-child {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.mobile-menu-toggle:hover,
+.mobile-menu-toggle:focus-visible {
+  background: rgba(141, 82, 54, 0.08);
+}
+
+.mobile-menu-toggle:focus-visible {
+  outline: 2px solid rgba(141, 82, 54, 0.72);
+  outline-offset: 5px;
+}
+
+.mobile-menu-panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: min(232px, calc(100vw - 44px));
+  padding: 10px;
+  display: none;
+  border: 1px solid rgba(141, 82, 54, 0.38);
+  background:
+    linear-gradient(180deg, rgba(246, 239, 229, 0.98), rgba(226, 216, 201, 0.98)),
+    url("/images/wall-texture.webp") center / 520px auto;
+  box-shadow: 0 16px 26px rgba(21, 18, 14, 0.24);
+}
+
+.mobile-menu[open] .mobile-menu-panel {
+  display: grid;
+  gap: 6px;
+}
+
+.mobile-menu-panel a {
+  min-height: 48px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(141, 82, 54, 0.16);
+  color: var(--ink);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mobile-menu-panel > a:last-of-type {
+  border-bottom: 0;
+  color: var(--copper-dark);
+}
+
+.mobile-menu-panel a:hover,
+.mobile-menu-panel a:focus-visible {
+  background: rgba(185, 130, 95, 0.12);
+  color: var(--copper-dark);
+}
+
+.mobile-menu-panel a:focus-visible {
+  outline: 2px solid rgba(141, 82, 54, 0.72);
+  outline-offset: 2px;
+}
+
+.mobile-menu-social {
+  justify-content: flex-start;
+  gap: 4px;
+  margin-top: 4px;
+  padding: 8px 4px 2px;
+  border-top: 1px solid rgba(141, 82, 54, 0.2);
+  color: var(--copper-dark);
+}
+
+.mobile-menu-panel .mobile-menu-social a {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .mobile-menu-toggle span {
+    transition: none;
+  }
+}
